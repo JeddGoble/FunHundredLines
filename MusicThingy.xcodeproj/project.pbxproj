@@ -16,6 +16,9 @@
 		AF4249D51D73322E00B36681 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF4249D31D73322E00B36681 /* LaunchScreen.storyboard */; };
 		AF4249E01D73322E00B36681 /* MusicThingyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4249DF1D73322E00B36681 /* MusicThingyTests.swift */; };
 		AF4249EB1D73322E00B36681 /* MusicThingyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4249EA1D73322E00B36681 /* MusicThingyUITests.swift */; };
+		AF4249F91D7335A600B36681 /* blueBall.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4249F81D7335A600B36681 /* blueBall.png */; };
+		AF4249FB1D73375D00B36681 /* ballDispenser.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4249FA1D73375D00B36681 /* ballDispenser.png */; };
+		AF4249FD1D733B8300B36681 /* LineNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4249FC1D733B8300B36681 /* LineNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		AF4249E61D73322E00B36681 /* MusicThingyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicThingyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF4249EA1D73322E00B36681 /* MusicThingyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicThingyUITests.swift; sourceTree = "<group>"; };
 		AF4249EC1D73322E00B36681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF4249F81D7335A600B36681 /* blueBall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueBall.png; sourceTree = "<group>"; };
+		AF4249FA1D73375D00B36681 /* ballDispenser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ballDispenser.png; sourceTree = "<group>"; };
+		AF4249FC1D733B8300B36681 /* LineNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,9 @@
 		AF4249C51D73322E00B36681 /* MusicThingy */ = {
 			isa = PBXGroup;
 			children = (
+				AF4249FA1D73375D00B36681 /* ballDispenser.png */,
+				AF4249FC1D733B8300B36681 /* LineNode.swift */,
+				AF4249F81D7335A600B36681 /* blueBall.png */,
 				AF4249C61D73322E00B36681 /* AppDelegate.swift */,
 				AF4249C81D73322E00B36681 /* GameScene.sks */,
 				AF4249CA1D73322E00B36681 /* GameScene.swift */,
@@ -237,8 +246,10 @@
 			files = (
 				AF4249C91D73322E00B36681 /* GameScene.sks in Resources */,
 				AF4249D51D73322E00B36681 /* LaunchScreen.storyboard in Resources */,
+				AF4249FB1D73375D00B36681 /* ballDispenser.png in Resources */,
 				AF4249D21D73322E00B36681 /* Assets.xcassets in Resources */,
 				AF4249D01D73322E00B36681 /* Main.storyboard in Resources */,
+				AF4249F91D7335A600B36681 /* blueBall.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +277,7 @@
 				AF4249CB1D73322E00B36681 /* GameScene.swift in Sources */,
 				AF4249CD1D73322E00B36681 /* GameViewController.swift in Sources */,
 				AF4249C71D73322E00B36681 /* AppDelegate.swift in Sources */,
+				AF4249FD1D733B8300B36681 /* LineNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
