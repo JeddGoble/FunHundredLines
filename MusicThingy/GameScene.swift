@@ -35,7 +35,7 @@ class GameScene: SKScene {
             lineStartLocation = touchStart
             
             currentLine = SKShapeNode(rect: CGRect(origin: touchStart, size: CGSize(width: 5.0, height: 5.0)))
-            currentLine?.strokeColor = SKColor.redColor()
+            currentLine?.strokeColor = SKColor.darkGrayColor()
             currentLine?.lineWidth = 5.0
             addChild(currentLine!)
         }

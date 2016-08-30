@@ -14,8 +14,6 @@
 		AF4249D01D73322E00B36681 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF4249CE1D73322E00B36681 /* Main.storyboard */; };
 		AF4249D21D73322E00B36681 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF4249D11D73322E00B36681 /* Assets.xcassets */; };
 		AF4249D51D73322E00B36681 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF4249D31D73322E00B36681 /* LaunchScreen.storyboard */; };
-		AF4249E01D73322E00B36681 /* MusicThingyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4249DF1D73322E00B36681 /* MusicThingyTests.swift */; };
-		AF4249EB1D73322E00B36681 /* MusicThingyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4249EA1D73322E00B36681 /* MusicThingyUITests.swift */; };
 		AF4249F91D7335A600B36681 /* blueBall.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4249F81D7335A600B36681 /* blueBall.png */; };
 		AF4249FB1D73375D00B36681 /* ballDispenser.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4249FA1D73375D00B36681 /* ballDispenser.png */; };
 /* End PBXBuildFile section */
@@ -48,11 +46,7 @@
 		AF4249D41D73322E00B36681 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF4249D61D73322E00B36681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF4249DB1D73322E00B36681 /* MusicThingyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicThingyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF4249DF1D73322E00B36681 /* MusicThingyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicThingyTests.swift; sourceTree = "<group>"; };
-		AF4249E11D73322E00B36681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF4249E61D73322E00B36681 /* MusicThingyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicThingyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF4249EA1D73322E00B36681 /* MusicThingyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicThingyUITests.swift; sourceTree = "<group>"; };
-		AF4249EC1D73322E00B36681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF4249F81D7335A600B36681 /* blueBall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueBall.png; sourceTree = "<group>"; };
 		AF4249FA1D73375D00B36681 /* ballDispenser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ballDispenser.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,8 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				AF4249C51D73322E00B36681 /* MusicThingy */,
-				AF4249DE1D73322E00B36681 /* MusicThingyTests */,
-				AF4249E91D73322E00B36681 /* MusicThingyUITests */,
 				AF4249C41D73322E00B36681 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -115,24 +107,6 @@
 				AF4249D61D73322E00B36681 /* Info.plist */,
 			);
 			path = MusicThingy;
-			sourceTree = "<group>";
-		};
-		AF4249DE1D73322E00B36681 /* MusicThingyTests */ = {
-			isa = PBXGroup;
-			children = (
-				AF4249DF1D73322E00B36681 /* MusicThingyTests.swift */,
-				AF4249E11D73322E00B36681 /* Info.plist */,
-			);
-			path = MusicThingyTests;
-			sourceTree = "<group>";
-		};
-		AF4249E91D73322E00B36681 /* MusicThingyUITests */ = {
-			isa = PBXGroup;
-			children = (
-				AF4249EA1D73322E00B36681 /* MusicThingyUITests.swift */,
-				AF4249EC1D73322E00B36681 /* Info.plist */,
-			);
-			path = MusicThingyUITests;
 			sourceTree = "<group>";
 		};
 		AF424A021D76340A00B36681 /* Assets */ = {
@@ -289,7 +263,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF4249E01D73322E00B36681 /* MusicThingyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,7 +270,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF4249EB1D73322E00B36681 /* MusicThingyUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
