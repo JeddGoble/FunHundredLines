@@ -18,7 +18,6 @@
 		AF4249EB1D73322E00B36681 /* MusicThingyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4249EA1D73322E00B36681 /* MusicThingyUITests.swift */; };
 		AF4249F91D7335A600B36681 /* blueBall.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4249F81D7335A600B36681 /* blueBall.png */; };
 		AF4249FB1D73375D00B36681 /* ballDispenser.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4249FA1D73375D00B36681 /* ballDispenser.png */; };
-		AF4249FD1D733B8300B36681 /* LineNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4249FC1D733B8300B36681 /* LineNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +55,6 @@
 		AF4249EC1D73322E00B36681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF4249F81D7335A600B36681 /* blueBall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueBall.png; sourceTree = "<group>"; };
 		AF4249FA1D73375D00B36681 /* ballDispenser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ballDispenser.png; sourceTree = "<group>"; };
-		AF4249FC1D733B8300B36681 /* LineNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,15 +105,12 @@
 		AF4249C51D73322E00B36681 /* MusicThingy */ = {
 			isa = PBXGroup;
 			children = (
-				AF4249FA1D73375D00B36681 /* ballDispenser.png */,
-				AF4249FC1D733B8300B36681 /* LineNode.swift */,
-				AF4249F81D7335A600B36681 /* blueBall.png */,
+				AF424A021D76340A00B36681 /* Assets */,
 				AF4249C61D73322E00B36681 /* AppDelegate.swift */,
 				AF4249C81D73322E00B36681 /* GameScene.sks */,
 				AF4249CA1D73322E00B36681 /* GameScene.swift */,
 				AF4249CC1D73322E00B36681 /* GameViewController.swift */,
 				AF4249CE1D73322E00B36681 /* Main.storyboard */,
-				AF4249D11D73322E00B36681 /* Assets.xcassets */,
 				AF4249D31D73322E00B36681 /* LaunchScreen.storyboard */,
 				AF4249D61D73322E00B36681 /* Info.plist */,
 			);
@@ -138,6 +133,16 @@
 				AF4249EC1D73322E00B36681 /* Info.plist */,
 			);
 			path = MusicThingyUITests;
+			sourceTree = "<group>";
+		};
+		AF424A021D76340A00B36681 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				AF4249FA1D73375D00B36681 /* ballDispenser.png */,
+				AF4249F81D7335A600B36681 /* blueBall.png */,
+				AF4249D11D73322E00B36681 /* Assets.xcassets */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,7 +282,6 @@
 				AF4249CB1D73322E00B36681 /* GameScene.swift in Sources */,
 				AF4249CD1D73322E00B36681 /* GameViewController.swift in Sources */,
 				AF4249C71D73322E00B36681 /* AppDelegate.swift in Sources */,
-				AF4249FD1D733B8300B36681 /* LineNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

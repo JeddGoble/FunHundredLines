@@ -39,7 +39,6 @@ class GameScene: SKScene {
             currentLine?.lineWidth = 5.0
             addChild(currentLine!)
         }
-        
     }
     
     override func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
@@ -55,8 +54,6 @@ class GameScene: SKScene {
         CGPathAddLineToPoint(path, nil, touchLocation.x, touchLocation.y)
         
         currentLine.path = path
-        
-        
     }
     
     override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
@@ -70,7 +67,6 @@ class GameScene: SKScene {
         currentLine.physicsBody?.dynamic = false
         
         self.currentLine = nil
-        
     }
     
     override func update(currentTime: CFTimeInterval) {
@@ -94,12 +90,4 @@ class GameScene: SKScene {
             ballTimer += 1
         }
     }
-    
-    
-    
-    
-    
-    
-    
-    
 }
