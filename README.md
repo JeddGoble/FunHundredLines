@@ -8,4 +8,4 @@ DudeFriend: "Dude, like, a hundred lines?"
 
 Me: "Yeah probably, dude."
 
-![Dude.](http://i.imgur.com/OcetbHk.gif)
+![Dude.](http://imgur.com/jdmoyqw.gif)
